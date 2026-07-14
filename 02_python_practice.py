@@ -38,7 +38,7 @@ x = 10
 
 
 # variable naming rules
-#start with letter or _
+# start with letter or _
 # can contain letters, numbers and _
 # cannot start with a number 
 # no spaces in variable names
@@ -117,26 +117,73 @@ if is_student:
 #input function in python 
 
 #input() function is used to take input from the User
-input("enter your name:  riya")
-print("hi riya")
-age = int(input("what is your age?; 17"))
-print("you will turning 18 next year")
+# witgout input the program always take fixed values 
+#for example
+name = "deeksha"
+print(name)
+# the out put is deeksha not matter who ever runs it
+
+input("enter your name: ")
+print ("Hi",name)
+# now the name changes for person to person same like the way chatgpt ask for our name
+
+#how does the python excute input is
+name = input("enter your name: ")
+# the screen shows enter your name:
+# the user type "Deeksha" and python receives it
+# python stores in it as 
+name = 'Deeksha'
+print(name)
+# out put is Deeksha 
+
+
+
+
+age = int(input("what is your age?:"))
+print("next year you will be", age + 1 )
+# out put be like "age" + 1 which is not possible so syntax erro
+# this is beacuse python does not your intention of whether your giving int , float, str
+# so it safely stores in str
+
+# to correct this
+age = int(input("enter your age: "))
+print("next year you will be" age + 1, )
 
 weight = float(input("what is your weight?:  53.5"))
 print("your weight is", weight, "kg")
 #these int and float are used to convert the input into integer and float data types respectively
 #otherwise the input is taken as string data type
-str(input("what is your favourite quote?"))
-"the more you sweat in training, the less you bleed at war"
-print("your favourite quote is:")
 
-num1 = int(input("enter first number:"))
-num2 = int(input("enter second number:"))
+quote = input("the more you sweat in training, the less you bleed at war ")
+print("my favourite quote is" ,quote)
+
+num1 = int(input("enter first number: 10"))
+num2 = int(input("enter second number:  20"))
 print(num1 + num2)
-10
-20
 print(num2-num1)
 
+print("10" + "20")
+#output is 1020
+print("10" +str(20))
+#output is 1020
+print(10 + int(20))
+#output is 30
+
+
+#User types
+#18
+#↓
+input()
+#↓
+#"18"
+#↓
+#int("18")
+#↓
+#18
+#↓
+#18 + 5
+#↓
+#23
 
 #operators
 a=3
