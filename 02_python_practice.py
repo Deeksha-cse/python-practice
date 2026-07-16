@@ -14,7 +14,7 @@ print ("hello world")
 #here print is a function () contains what you want to print 
 #quotations create a string (text) and text is printed in the output
 print("India is awesome!")
-print ('india is awesome!')
+print('india is awesome!')
 #both are correct and will give the same output
 #if you dont give quotations python thinks its a variable and will give an error
 #variables are used to store data 
@@ -123,7 +123,7 @@ name = "deeksha"
 print(name)
 # the out put is deeksha not matter who ever runs it
 
-input("enter your name: ")
+name = input("enter your name: ")
 print ("Hi",name)
 # now the name changes for person to person same like the way chatgpt ask for our name
 
@@ -154,11 +154,11 @@ print("your weight is", weight, "kg")
 #these int and float are used to convert the input into integer and float data types respectively
 #otherwise the input is taken as string data type
 
-quote = input("the more you sweat in training, the less you bleed at war ")
-print("my favourite quote is" ,quote)
+quote = input("Enter your favourite quote:  ")
+print("your favourite quote is", quote)
 
-num1 = int(input("enter first number: 10"))
-num2 = int(input("enter second number:  20"))
+num1 = int(input("enter first number: "))
+num2 = int(input("enter second number:" ))
 print(num1 + num2)
 print(num2-num1)
 

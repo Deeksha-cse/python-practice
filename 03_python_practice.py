@@ -49,7 +49,7 @@ print(bool(username))
 #the python stores it as
 username = "Deeksha"
 print(bool(username ))
-#output is Deeksha 
+#output is True 
 
 
 
@@ -102,6 +102,51 @@ if college:
      print("Thank you so much for cooperating with us")
 else:
     print("Please enter the name of your college")
+
+
+#comparison operators also come in bool data type
+
+age = 17
+print(age == 17)#True
+print(age != 16)#true
+print(age > 15)#True
+print(age >= 17)#True
+
+
+marks = int(input("Enter your marks: "))
+if marks >= 35:
+    print("Pass")
+else:
+    print("Better luck next time")
+  
+
+
+password = input("Enter your password: ")
+if bool(password):
+    print("done and dusted")
+else:
+    print("kindly enter the password")
+
+
+age = int(input("Please enter your age: "))
+if age >= 18:
+    print("your are an  adult")
+else:
+    print("access denied.You must be 18 years old")
+
+Temparature = float(input("Enter your body temparature: "))
+if Temparature < 38:
+    print("you're perfectly alright")
+else:
+    print("take care of your self")
+
+age = int(input("Enter your age:"))
+if age < 13:
+    print("you're a child")
+elif age < 20:
+    print("you're a teen")
+else:
+    print("you're an adult")
 
 
 
