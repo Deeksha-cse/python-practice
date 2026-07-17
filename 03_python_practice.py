@@ -67,15 +67,6 @@ print(light_on)
 bool("False")
 #output is True
 
-#there is other way to excute it
-answer = ("do you want to continue?: (yes/no)  ")
-#if the user types yes
-answer = "yes"
-#python stores it
-print(bool(answer))
-#output is True
-
-
 username = input("enter your name:  ")
 if bool(username):
     print('WELCOME!')

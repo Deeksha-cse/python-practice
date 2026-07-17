@@ -113,8 +113,7 @@ else:
 #practice q6
 username = input("enter your name:").lower()
 password = input("enter your password:")
-if username == "deeksha":
-   if password == "deeksha2009":
+if username == "deeksha"and password == "deeksha2009":
     print("login successful")
 else:
     print("Invalid password or username")
