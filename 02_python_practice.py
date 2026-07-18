@@ -147,7 +147,7 @@ print("next year you will be", age + 1 )
 
 # to correct this
 age = int(input("enter your age: "))
-print("next year you will be" age + 1, )
+print("next year you will be" , age + 1 )
 
 weight = float(input("what is your weight?:  53.5"))
 print("your weight is", weight, "kg")
