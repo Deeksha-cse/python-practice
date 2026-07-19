@@ -26,5 +26,47 @@ else:
     print("file name must end with '.py'")
 
 
+#PROJECT: STUDENT ID CARD
+name = input("enter your name:")
+college = input("enter the college name:")
+branch = input("enter your department")
+semester = int(input("enter your semester"))
+print("Name:",name)
+print("college:", college)
+print("branch:",branch)
+print("semester:", semester)
+print("Welcome")
+
+
+#LOGIN SYSTEM 2.0
+username = input("enter your name:").lower().strip()
+password = input("enter your password")
+if len(username) >=10:
+    if len(password) >=8:
+        if "@" in password:
+            if " " not in username:
+                print("login successful")
+            else:
+                print("username have too many spaces")
+        else:
+            print("invalid password")
+    else:
+        print("invalid password")
+else:
+    print("username is too short")
+
+
+#RESUME BUILDER
+
+name = input("enter your name:").strip().title()
+age =int(input("enter your age:"))
+skills = input("enter your skills:")
+dream_company = input("where do you want to work:").strip().title()
+print("Myself",name)
+print("I'm", age, "years old")
+print("I'm good at", skills)
+print("I wish I could work at", dream_company)
+
+
         
 
