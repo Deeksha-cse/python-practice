@@ -55,7 +55,7 @@ print(bool(username ))
 
 #why input and bool can be misleading
 #suppose 
-light_on = bool(input(is_light_on))
+light_on = bool(input("is_light_on: "))
 #if the user types False
 light_on = "False"
 #python stores it

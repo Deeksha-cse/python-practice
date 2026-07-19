@@ -1,5 +1,5 @@
 #here is more about elif 
-#elif means if the previous condition is check this
+#elif means if the previous condition is not true check this
 
 
 

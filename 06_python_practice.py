@@ -155,6 +155,7 @@ word = "Python"
 print(word[:-2])
 #output python stops before-2
 #output is pyth
+#always takes from left to right
 
 #step value
 #step tell python to skip characters
@@ -238,7 +239,7 @@ else:
     print("not a gmail address")
 
 #practice q8
-name = input("enter your name").lower().strip
+name = input("enter your name").lower().strip()
 print(name)
 
 #practice q9

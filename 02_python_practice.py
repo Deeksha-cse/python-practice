@@ -139,7 +139,7 @@ print(name)
 
 
 
-age = int(input("what is your age?:"))
+age = (input("what is your age?:"))
 print("next year you will be", age + 1 )
 # out put be like "age" + 1 which is not possible so syntax erro
 # this is beacuse python does not your intention of whether your giving int , float, str

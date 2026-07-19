@@ -23,7 +23,7 @@
 #definition
 #the 'and' operator returns True only if every condition is True
 
-username = input("enter your name:").strip()
+username = input("enter your name:").strip().lower()
 password = input("enter your password:")
 if username == "deeksha" and password =="deeksha2009":
     print("access allowed")
