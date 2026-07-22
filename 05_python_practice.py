@@ -34,10 +34,6 @@ else:
 #here more about .lower()
 username = input("enter your name:").lower()
 username = "Deeksha"
-#including lower() to makes the python accept 
-#"Deeksha"
-#"DEEKSHA"
-#"dEeKsHa"
 #"deeksha"
 
 

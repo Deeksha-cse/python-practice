@@ -148,7 +148,7 @@ for number in range(0,5):
 #loop starts
 
 #number 
-#here it is called lop variable
+#here it is called loop variable
 #python stores in it automatically as
 number = 1
 number =2
