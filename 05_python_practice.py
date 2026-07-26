@@ -227,13 +227,13 @@ else:
     print("invalid username")
 
 
-answer = input("got adimmision in the college?:  (yes/no)").lower().strip()
+answer = input("got adimission in the college?:  (yes/no)").lower().strip()
 verified = input("are your documents verified?: (yes/no)").lower().strip()
 if answer == "yes":
     if verified == "yes":
         print("Welcome!")
     else:
-        print("your documents are not verifies")
+        print("your documents are not verified")
 else:
     print("sry! you did get a admission")
  

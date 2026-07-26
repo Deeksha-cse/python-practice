@@ -109,7 +109,7 @@ print(type("True"))
 
 #where use these boolean data types
 is_student = True
-if is_student:
+if is_student == True:
     print('student discount is applied')
 
 

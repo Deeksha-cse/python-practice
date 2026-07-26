@@ -37,7 +37,7 @@ while count <=5:
     count += 1
 
 # count = 1
-#variable name count is created aand starts with value 1 
+#variable name count is created and starts with value 1 
 
 #while count <=5:
 #python asks is the count less than or equal to 5?
