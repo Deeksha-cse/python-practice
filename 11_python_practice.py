@@ -110,5 +110,24 @@ print(word.title())
 print(word.count("a"))
 
 
-#
-
+#practice q13
+choice = "yes"
+while choice =="yes":
+name = input("enter your name:")
+age = int(input("enter your age:"))
+marks = int(input("enter your marks:"))
+password = input("enter your password:")
+while password != "python123":
+    password = input("password is incorrect")
+print(name. upper())
+if marks >= 90:
+    print("excellent")
+else:
+    print("keep working hard")
+if age < 18:
+    print("Minor")
+else:
+    print("Adult")
+for num in range(1,11):
+    print(age "x",num,"=",age * num)
+choice = input("do you want to run the program again : (yes/no)")
