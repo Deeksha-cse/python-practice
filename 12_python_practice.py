@@ -68,3 +68,16 @@ for num in range(1,21):
     if num % 2 == 0:
         continue
     print(num)
+
+#practice q4
+for i in range(1,11):
+    if i == 5:
+        continue
+    print(i)
+
+#practice q5
+name = "Deeksha"
+for i in name:
+    if i  == "e":
+        continue
+    print(i)

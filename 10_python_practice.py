@@ -55,7 +55,7 @@ print(2,1)
 for row in range(3):
     for col in range(2):
         print("*")
-#how many starts will it print?
+#how many stars will it print?
 #outer loop 3
 #inner loop 2
 #total 6 stars
