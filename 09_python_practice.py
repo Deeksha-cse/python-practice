@@ -89,8 +89,8 @@ count = 6
 
 pin = int(input("Enter your pin:"))
 while pin != 1981:
-    pin = input("Enter your pin:")
-print("Acess denied")
+    pin = int(input("Enter your pin:"))
+print("Acess allowed")
 
 count = 1
 while count <= 3:
