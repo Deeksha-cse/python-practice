@@ -117,7 +117,7 @@ if is_student == True:
 #input function in python 
 
 #input() function is used to take input from the User
-# witgout input the program always take fixed values 
+# without input the program always take fixed values 
 #for example
 name = "deeksha"
 print(name)

@@ -23,5 +23,20 @@ which is typically the console or terminal
 
 8. the program terminates, and control is returned to the operating system.
 
+/* this is a simple c program i did in day 1*/
+#include<stdio.h>
+int main()
+{
+    int a;
+    int b;
+    int sum;/* variable to store the sum */
+    printf("enter the value of a:");/* this is displayed on the screen */
+    scanf("%d",&a); /* this reads an integer from the user and stores it in variable a*/
+    printf("enter the value of b:");
+    scanf("%d",&b);
+    sum = a+b;/*this calculates the sum*/
+    printf("sum is %d",sum);
+    return 0;/* this indicates successful completion of the program */
+}
 
 
